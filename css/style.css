@@ -127,7 +127,6 @@ body > a:focus {
 .gallery-item {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 10px;
     grid-column-gap: 20px;
     border: #81A1C1 2px dotted;
     border-radius: 10px;
@@ -165,7 +164,7 @@ body > a:focus {
 
 .gallery-item figcaption {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     color: #2E3440;
     line-height: 1.5;
     }
