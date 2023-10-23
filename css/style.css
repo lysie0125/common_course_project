@@ -178,6 +178,11 @@ body > a:focus {
     grid-column-gap: 20px;
     }
 
+@media (prefers-reduced-motion: reduce) {
+    .gallery-item img {
+        transition: none;
+    }
+}
 
 @media all and (min-width: 800px) {
     .grid {
